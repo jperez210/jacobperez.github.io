@@ -3,25 +3,17 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title> The Homepage</title>
 
-    
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" type ="text/css" href="projectcss.css" />
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-
-<title> The Homepage</title>
-
-</head>
+  </head>
 
 <body>
-    <br>
-    <div class="jumbotron text-center" >
-        <h1>Jacob Perez's Work in progress Bootstrap Website</h1>
-      </div>
-
-    <nav class="navbar navbar-expand-sm fixed-top navbar-dark">
-        
+  <header>  
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
         <span class="navbar-toggler-icon"> </span>
     </button>
@@ -30,20 +22,33 @@
         <li class="nav-item active">
             <a class="nav-link" data-value="home" href="#">Home</a>        </li>  
        <li class="nav-item">
-           <a class="nav-link " data-value="about" href="aboutme.html">About Help Me</a>    
+           <a class="nav-link " data-value="about" href="aboutme.html">About Me</a>    
         </li>
         <li class="nav-item"> 
            <a class="nav-link" data-value="social" href="projects.html">Projects</a>         </li>    
        </ul> 
        </div>
-    </nav>
-        
-    <div class="container">
-      <img src="images/JakeBW.jpg"  alt="Why?" style="height: 75%; width: 75%;"> 
-        <h2 style="color: mediumpurple;"> About Me</h2>
+      </nav>
+      </header>
+    
+
+
+    <section id ="introduction">
+      
+        <h1>Hello, I am <strong>Jacob Perez </strong> </h1>
+        <h3> Front-End Developer</h3>
+    
+        <img class="img-about" src="images/JakeBW.jpg"  alt="Why?" style="height: 50%; width: 50%;"> 
+    </section>
+
+    
+
+<div class="container">
+        <h2 style="color: mediumpurple;">  Profile</h2>
         <div class="row">
-        <p> I am up and coming free lance front-end developer from San Antonio. When I am not working, you can catch me working out or enjoying a cold beer. 
-        </p>
+        <p> I am an up and coming free lance Front-End Developer from San Antonio. When I am not working, you can catch me working out or enjoying a cold beer. 
+        <p>
+
         </div>
         </div>
 
@@ -74,7 +79,7 @@
            
            <div class="card">
            <img src="images/coming-soon-message.png" style="width:100%">
-           <div class="header">   Reseeved for future project
+           <div class="header" href="niketalk.com">   Reseeved for future project 
            <div class="card-body">Reserved for a future project.
          </div>
              </div>
@@ -102,10 +107,11 @@
 <footer>
 <a href="perezjacob2@gmail.com" style="font-size:24px;color:mediumpurple;"> Contact: perezjacob2@gmail.com  </a>
 </footer>
-            
+     
 
-</body>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
+    </body>
 </html>
