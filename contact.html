@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title> Contact</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type ="text/css" href="/cs/contact.css"/>
+   
+  </head>
+
+<body>
+  <header>  
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"> </span>
+    </button>
+          <div class="collapse navbar-collapse " id="collapsibleNavbar">
+            <ul class="navbar-nav">  
+        <li class="nav-item ">
+            <a class="nav-link" data-value="home" href="index.html">Home</a>        </li>  
+       <li class="nav-item">
+           <a class="nav-link " data-value="about" href="about.html">About Me</a>    
+        </li>
+          
+        <li class="nav-item active"> 
+          <a class="nav-link" data-value="contact" href="#">Contact</a>        
+          </li>    
+       </ul> 
+       </div>
+      </nav>
+      </header>
+     
+      <div class="row row-content">
+        <div class="col-12">
+            <h2>Contact</h2>
+            <hr />
+        </div>
+        <div class="container">
+            <div id="error"></div>
+            <form  method = "GET" id="form" class ="form" onsubmit= "return validation()">
+                <div class="form-group row">
+                    <label for="firstName" class="col-md-2 col-form-label">First Name</label>
+                    <div class="col-md-8">
+                        <input type="text"  class="form-control" id="firstName" name="firstName" />
+                        
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="lastName" class="col-md-2 col-form-label"> Last Name</label>
+                    <div class="col-md-8">
+                        <input type="text" class="form-control" id="lastName" name="lastName"  />
+                        
+                    </div>
+                </div>
+        <div class="form-group row">
+                <label for="email" class="col-md-2 col-form-label">Email</label>
+                <div class="col-md-8">
+                    <input type="text" class="form-control" id="email" name="email" >
+                    
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="mess" class="col-md-2 col-form-label">Message</label>
+                <div class="col-md-8">
+                    <textarea class="form-control" id="message" name="message" rows="3"></textarea>
+                    
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="offset-md-2 col-md-10">
+                    <button type="submit" class="button" >Send Message</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    
+
+    <footer>
+        <a href="perezjacob2@gmail.com" style="font-size:36px;"> Contact: perezjacob2@gmail.com  </a>     
+        </footer>
+           
+
+    <script src="/js/contact.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+  </html>
