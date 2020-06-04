@@ -39,8 +39,9 @@
             <hr />
         </div>
         <div class="container">
-            <div id="error"></div>
-            <form  method = "GET" id="form" class ="form" onsubmit= "return validation()">
+            <div id="formStatus" class="formStatus error"></div>
+            <form  action = "https://formspree.io/mlepblab"
+             method= "POST" id="form" class ="form" onsubmit= "return validation()">
                 <div class="form-group row">
                     <label for="firstName" class="col-md-2 col-form-label">First Name</label>
                     <div class="col-md-8">
@@ -65,25 +66,29 @@
             <div class="form-group row">
                 <label for="mess" class="col-md-2 col-form-label">Message</label>
                 <div class="col-md-8">
-                    <textarea class="form-control" id="message" name="message" rows="3"></textarea>
+                    <textarea class="form-control" id="textarea" name="textarea" maxlength="150"
+                    rows="3"></textarea>
+                    <p class="small-text text-right" id="textLength">Max 150 Characters</p>
                     
                 </div>
             </div>
+            
             <div class="form-group row">
                 <div class="offset-md-2 col-md-10">
                     <button type="submit" class="button" >Send Message</button>
                 </div>
             </div>
+           
+        </form>
         </form>
     </div>
 
     
 
     <footer>
-        <a href="perezjacob2@gmail.com" style="font-size:36px;"> Contact: perezjacob2@gmail.com  </a>     
+        <a href="perezjacob2@gmail.com" style="font-size:36px;"> perezjacob2@gmail.com  </a>     
         </footer>
            
-
     <script src="js/contact.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
