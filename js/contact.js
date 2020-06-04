@@ -1,5 +1,5 @@
 form.addEventListener('submit', (e) => {
-    e.preventDefault();
+    
     validation();
 });
 
@@ -36,10 +36,8 @@ function validation() {
          return false;
     }
     
-    alert("Form Submitted Successfully!")
-    return true;
+    
     }
-   
 
 
 (function() {
