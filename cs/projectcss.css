@@ -1,5 +1,6 @@
 body{
   background-color:grey;
+  margin: 0px
 }
 
 .fa {
@@ -8,15 +9,11 @@ body{
     box-shadow: 0px 0px 2px ;
     padding: 0.5em 0.6em;
     margin: 0px 150px;
+    
 }
 
 a:hover {
     color:green !important;
-}
-
-p {   
-    font-family: Verdana, Geneva, Tahoma, sans-serif;color: mediumpurple;
-    margin-top: 1in;
 }
 
 h1, h2{
@@ -26,6 +23,20 @@ h3{
   font-family: cursive;
   text-align: center;
 }
+
+.two-column-wrapper{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.profile-image-wrapper img{
+  width: 100%;
+}
+
+.profile-content-wrapper{
+  padding: 30px;
+}
+
 
 /* use image-not to not display on phones 
 @media (max-width:629px)  {
@@ -42,7 +53,8 @@ img {
 }
 
 .btn{
-background-color: rgba(16, 5, 54, 0.425)
+background-color: rgba(16, 5, 54, 0.425);
+
 }
 
 .image {
@@ -87,10 +99,10 @@ background-color: rgba(16, 5, 54, 0.425)
 
 footer{
    font-size: 50px;
-   padding: 25px;
-   margin: 0;
+   padding: 50px;
+  text-align: center;
+  
 }
-
 
 .fade-in {
   animation: fadeIn ease 5s;
@@ -144,6 +156,3 @@ footer{
 }
 }
 
-.media{
-justify-content: center;
-}
