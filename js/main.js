@@ -1,12 +1,14 @@
-function myFunction() {
+
     var time = new Date().getHours();
     var greeting;
-    if (time < 10) {
+    if (time > 18) {
+      greeting = "Good evening";
+    } else if (time > 12) {
+      greeting = "Good afternoon";
+    } else if (time > 0) {
       greeting = "Good morning";
-    } else if (time < 20) {
-      greeting = "Good day";
     } else {
-      greeting ="Good evening";
+      greeting ="Welcome";
     }
-  document.getElementById("demo").innerHTML = greeting;
-  }
+    document.getElementById("greeting").innerHTML = greeting;
+  
