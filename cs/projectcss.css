@@ -3,13 +3,18 @@
   padding: 0;
 text-decoration: 0;
 }
+body {
+  display: flex;
+  flex-direction: column; /* creates rows out of the elements main and footer */
+  height: 100vh; 
+  margin:0;
+}
 
 .fa {
-    background: black;
-    border-radius: 60px;
-    box-shadow: 0px 0px 2px ;
-    padding: 0.5em 0.6em;
-    margin: 0px 150px;
+    
+    
+   
+    margin: 0px 10px;
 }
 
 a:hover {
@@ -49,10 +54,8 @@ background-color: rgba(16, 5, 54, 0.425);
   
   background:url(../images/backround.jpg) no-repeat;
   background-size: cover;
-  width:100%;
+  max-width:100%;
   height: 100vh;
-  
-  
 }
 
 
@@ -61,7 +64,12 @@ footer {
   color: aqua;
   background-color: blueviolet;
   position: relative;
-  margin: 50px 0 0 0
+  overflow: hidden;
+  max-width:100%;
+}
+
+.navbar{
+background-color:black;
 }
 
 .fade-in {
