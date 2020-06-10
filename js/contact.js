@@ -1,5 +1,4 @@
 form.addEventListener('submit', (e) => {
-    
     validation();
 });
 
@@ -35,7 +34,6 @@ function validation() {
          form.email.focus();
          return false;
     }
-    
     
     }
 

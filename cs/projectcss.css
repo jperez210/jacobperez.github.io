@@ -1,40 +1,31 @@
-*{
-  margin:0;
-  padding: 0;
-text-decoration: 0;
-}
-body {
-  display: flex;
-  flex-direction: column; /* creates rows out of the elements main and footer */
-  height: 100vh; 
-  margin:0;
+body{
+      padding: 0;
+      margin: 0;
+      background-color: teal;
 }
 
-.fa {
-    
-    
-   
-    margin: 0px 10px;
+.fa{
+      margin: 0px 10px;
 }
 
-a:hover {
-    color:green !important;
+a:hover{
+          color:yellow !important;
 }
 
-h1, h2{
-  text-align: center;
-  padding-bottom: 50px;
-  padding-top: 50px;
+h1,h2{
+        text-align: center;
+        padding-bottom: 50px;
+        padding-top: 50px;
+        color: white;
 }
 
 h3{
-  font-family: cursive;
-  text-align: center;
-  
+    font-family: cursive;
+    text-align: center;
 }
 
-h4
-  { text-align: center;
+h4{
+  text-align: center;
 }
 
 img {
@@ -43,33 +34,63 @@ img {
 }
 
 .btn{
-background-color: rgba(16, 5, 54, 0.425);
+	border:1px  solid rgb(10, 10, 10);
+	background:rgb(10, 10, 10);
+  color:mediumpurple;
+  
 }
 
 .container-fluid{
   position: relative;
+}
 
-}
-.wrapper {
-  
-  background:url(../images/backround.jpg) no-repeat;
+.header{
+  background-image: url('/images/backround.jpg');
+  background-attachment: fixed;
   background-size: cover;
-  max-width:100%;
+  background-position: center;
   height: 100vh;
-}
+ }
 
 
 footer {
-  padding: 50px;
-  color: aqua;
-  background-color: blueviolet;
-  position: relative;
-  overflow: hidden;
-  max-width:100%;
+  background: rgb(52, 90, 52);
+    text-align: center;
+    width: 100%;
+    left: 0;
+    bottom: 0;
 }
+
 
 .navbar{
 background-color:black;
+}
+button.navbar-toggler.navbar-toggler{
+  border-color: mediumpurple;
+}
+
+.nav-link{
+color: mediumpurple !important
+}
+
+.row-content {
+  padding: 50px 0;
+  min-height: 200px;
+  margin-left: initial;
+}
+
+.button{
+  color: aqua;
+  background-color: black;
+  border-color: black;
+}
+
+.formStatus {
+  text-align: center;
+  padding: 10px 0;
+}
+.error {
+  color: red;
 }
 
 .fade-in {
