@@ -24,17 +24,7 @@
     }
     document.getElementById("greeting").innerHTML = greeting;
   
-    $(document).ready(function(){
-     $('.header').height($(window).height());
     
-     $(".navbar a").click(function(){
-          $("body,html").animate({
-               scrollTop:$("#" + $(this).data('value')).offset().top
-          },1000)
-      
-     })
-    
-    })
         
      form.addEventListener('submit', (e) => {
       validation();
@@ -72,5 +62,8 @@
            form.email.focus();
            return false;
       }
-      
       }
+
+      const scroll = new SmoothScroll('a[href*="#"]', {
+           speed:800
+      });

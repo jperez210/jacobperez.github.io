@@ -1,15 +1,17 @@
-body{
+body,html{
       padding: 0;
       margin: 0;
-      background-color: teal;
+      
 }
 
 .fa{
       margin: 0px 10px;
+      border-radius: 50%;
+      font-size: 24px;
 }
 
 a:hover{
-          color:yellow !important;
+        color:yellow !important;
 }
 
 h1,h2{
@@ -17,15 +19,6 @@ h1,h2{
         padding-bottom: 50px;
         padding-top: 50px;
         color: white;
-}
-
-h3{
-    font-family: cursive;
-    text-align: center;
-}
-
-h4{
-  text-align: center;
 }
 
 img {
@@ -37,7 +30,6 @@ img {
 	border:1px  solid rgb(10, 10, 10);
 	background:rgb(10, 10, 10);
   color:mediumpurple;
-  
 }
 
 .container-fluid{
@@ -49,22 +41,22 @@ img {
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  width: 100vw;
+  height: 100vw;
  }
 
 
 footer {
   background: rgb(52, 90, 52);
-    text-align: center;
-    width: 100%;
-    left: 0;
-    bottom: 0;
+  text-align: center;
+  width: 100vw;
+  font-size: 14px;
+  text-align: center;
+  padding: 80px 0;
+  position: relative;
 }
 
 
-.navbar{
-background-color:black;
-}
 button.navbar-toggler.navbar-toggler{
   border-color: mediumpurple;
 }
@@ -74,8 +66,8 @@ color: mediumpurple !important
 }
 
 .row-content {
-  padding: 50px 0;
-  min-height: 200px;
+  padding: 25px 0;
+  min-height: 100px;
   margin-left: initial;
 }
 
@@ -90,7 +82,7 @@ color: mediumpurple !important
   padding: 10px 0;
 }
 .error {
-  color: red;
+  color: #ed3c0d;
 }
 
 .fade-in {
@@ -145,3 +137,66 @@ color: mediumpurple !important
 }
 }
 
+.resume .resume-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #3b434a;
+}
+
+.resume .resume-item {
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 2px solid #82909c;
+  position: relative;
+}
+
+.resume .resume-item h4 {
+  line-height: 18px;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffb727;
+  margin-bottom: 10px;
+}
+
+.resume .resume-item h5 {
+  font-size: 16px;
+  background: #eef0f2;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.resume .resume-item ul {
+  padding-left: 20px;
+}
+
+.resume .resume-item ul li {
+  padding-bottom: 10px;
+}
+
+.resume .resume-item:last-child {
+  padding-bottom: 0;
+}
+
+.resume .resume-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #fff;
+  border: 2px solid #82909c;
+}
+
+.container{
+scroll-behavior: smooth;
+}
+section{
+  padding: 40px 0;
+}
