@@ -1,17 +1,29 @@
 body,html{
       padding: 0;
       margin: 0;
-      
+      background: black;
 }
 
 .fa{
-      margin: 0px 10px;
-      border-radius: 50%;
-      font-size: 24px;
+  font-size: 18px;
+  
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.6s;
 }
 
 a:hover{
         color:yellow !important;
+}
+.btn:hover{
+  color:yellow !important;
+
 }
 
 h1,h2{
@@ -86,8 +98,8 @@ color: mediumpurple !important
 }
 
 .fade-in {
-  animation: fadeIn ease 5s;
-  -webkit-animation: fadeIn ease 5s;
+  animation: fadeIn ease 8s;
+  -webkit-animation: fadeIn ease 8s;
   -moz-animation: fadeIn ease 5s;
   -o-animation: fadeIn ease 5s;
   -ms-animation: fadeIn ease 5s;
@@ -197,6 +209,23 @@ color: mediumpurple !important
 .container{
 scroll-behavior: smooth;
 }
+
 section{
   padding: 40px 0;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(148, 76, 76, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #8f86868c;
+}
+
+.card-footer{
+  background-color: #8f86868c;
+
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(164, 52, 230, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }

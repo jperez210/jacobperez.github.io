@@ -20,7 +20,7 @@
     } else if (time > 0) {
       greeting = "Good morning,";
     } else {
-      greeting ="Welcome";
+      greeting ="Hello,";
     }
     document.getElementById("greeting").innerHTML = greeting;
   
@@ -67,3 +67,5 @@
       const scroll = new SmoothScroll('a[href*="#"]', {
            speed:800
       });
+
+      
