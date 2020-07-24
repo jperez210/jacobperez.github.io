@@ -15,7 +15,7 @@
     var greeting;
     if (time > 18) {
       greeting = "Good evening,";
-    } else if (time > 12) {
+    } else if (time > 11) {
       greeting = "Good afternoon,";
     } else if (time > 0) {
       greeting = "Good morning,";
