@@ -223,11 +223,11 @@ section{
   box-shadow: 0 4px 8px 0 rgba(39, 10, 63, 0.993);
   padding: 5px;
   text-align: center;
-  background-color: #8f86868c;
+  background-color: white;
 }
 
 .card-footer{
-  background-color: red;
+  background-color: white;
 }
 
 .custom-toggler .navbar-toggler-icon {
