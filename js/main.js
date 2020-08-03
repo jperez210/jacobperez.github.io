@@ -1,3 +1,4 @@
+
   (function() {
       
       var checkLength = function() {
@@ -13,7 +14,7 @@
 
   var time = new Date().getHours();
     var greeting;
-    if (time > 18) {
+    if (time > 17) {
       greeting = "Good evening,";
     } else if (time > 11) {
       greeting = "Good afternoon,";
@@ -68,4 +69,11 @@
            speed:800
       });
 
-      
+      $(document).ready(function () {
+        $('.nav a').on('click', function(){
+          $('.navbar-toggler').click(); 
+      })
+      });
+        
+
+     

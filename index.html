@@ -16,22 +16,22 @@
      <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
         <span class="navbar-toggler-icon"> </span>
     </button>
-          <div class="collapse navbar-collapse " id="collapsibleNavbar">
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="navbar-nav">  
         <li class="nav-item">
-            <a class="nav-link" data-value="home" href="#">Home</a>
+            <a class="nav-link" data-value="home"href="#"  data-toggle="collapse" data-target=".navbar-collapse.show">Home</a>
           </li>  
        <li class="nav-item">
-           <a class="nav-link" data-value="portfolio" href="#portfolio">Portfolio</a>    
+           <a class="nav-link" data-value="portfolio" href="#portfolio"  data-toggle="collapse" data-target=".navbar-collapse.show">Portfolio</a>    
        </li>
         <li class="nav-item">
-          <a class="nav-link" data-value="about" href="#about">About</a>
+          <a class="nav-link" data-value="about" href="#about" data-toggle="collapse" data-target=".navbar-collapse.show">About</a>
         </li>  
         <li class="nav-item"> 
-          <a class="nav-link" data-value="resume" href="#resume">Resume</a>        
+          <a class="nav-link" data-value="resume" href="#resume" data-toggle="collapse" data-target=".navbar-collapse.show">Resume</a>        
           </li>   
         <li class="nav-item"> 
-          <a class="nav-link" data-value="contact" href="#contact">Contact</a>        
+          <a class="nav-link" data-value="contact" href="#contact" data-toggle="collapse" data-target=".navbar-collapse.show">Contact</a>        
           </li>  
           </ul>
        </div>
@@ -51,32 +51,30 @@
       <section class="about" id="portfolio">
         <h1> Portfolio</h1>
             <div class="card-deck">
-             
               <div class="card">
-              <img src="images/TexasCOVID.jpg" >
+              <img src="images/TexasCOVID.jpg" class="img-fluid" >
       <h5 >Texas COVID-19 Tracker</h5>
-        <p>Displays current COVID-19 data using API for the state of Texas. <p>
+        <p>Displays current COVID-19 data using API for the state of Texas. Site updates daily. </p>
           <div class="card-footer text-center">
           <a href="https://jperez210.github.io/TexasCovid/" target="_blank" class="btn btn-sm">Try It</a>
-          <button class="btn btn-sm" a href="https://github.com/jperez210/TexasCovid" >Link To Code
+          <a href="https://github.com/jperez210/TexasCovid" class="btn btn-sm" target="_blank" >Link To Code</a>
             </div>
               </div>
-            
-
+      
               <div class="card">
-              <img src="images/Sneakershop.jpg" class="img-fluid" > 
+              <img src="images/Sneakershop.jpg" class="img-fluid"> 
               <h5>Online Shop</h5>
-              <p> A online store created us reactjs. This website also includes PayPal integretation</p>
+              <p> A online store created us Reactjs. Links to the sandbox Paypal environment to make a mock puchase.  </p>
                 <div class="card-footer text-center">
                 <a href="https://jperez210.github.io/sneakers/" target="_blank" class="btn btn-sm" >Try It</a>
-                <button class="btn btn-sm" a href="https://github.com/jperez210/sneakers">Link To Code</a>
+                <a href="https://github.com/jperez210/sneakers"  class="btn btn-sm" target="_blank" >Link To Code</a>
                    </div>
               </div>
               
                 <div class="card">
              <img src="images/wordpress.jpg" class="img-fluid">
              <h5>WordPress Site</h5>
-                   <p> This will be a WordPress website not currently created. Will most likely be a blog of some sort.</p>
+                   <p> This will be a WordPress website not currently created. </p>
                      <div class="card-footer text-center">
                      <button class="btn btn-sm" disabled>Try It</a>
                      
@@ -99,8 +97,8 @@
       <div class="col-lg-8 pt-4 pt-lg-0 content">
         <h3>Front End Web Developer</h3>
         <p class="font-italic">
-        My coding jouney began late last year with an intro to HTML fundamentals course. I had no idea what I was getting into,
-        but I had wanted to learn and took the first step towards my career in software development. Since then, I have completed completed a front end . 
+        My coding jouney began late last year with an Introduction To HTML Fundamentals course. I had no idea what I was getting into,
+        but I had wanted to learn and took the first step towards my career in software development. Since then, I have completed completed a front end bootcamp and look forward to learning more. 
         </p>
         <h3>My Skills</h3>
         <div class="row">
@@ -210,7 +208,7 @@
                 <div class="form-group row">
                     <label for="lastName" class="col-md-2 col-form-label"> Last Name</label>
                     <div class="col-md-8">
-                        <input type="text" class="form-control" id="lastName" name="lastName"  />
+                        <input type="text" class="form-control" id="lastName" name="lastName" />
                     </div>
                 </div>
         <div class="form-group row">
@@ -247,8 +245,8 @@
   
 
 <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
-<script src="js/main.js"></script>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
