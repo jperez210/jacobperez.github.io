@@ -1,7 +1,7 @@
 body,html{
       padding: 0;
       margin: 0;
-      background-color: #fcfcfc59   
+      background: #3b434a
 }
 
 input{
@@ -10,7 +10,6 @@ input{
 
 .fa{
   font-size: 20px;
-  
   text-align: center;
   transition: 0.6s;
 }
@@ -25,6 +24,13 @@ input{
   vertical-align: middle;
   padding: 18px;
 }
+.fade-in{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 
 a:hover{
         color:yellow !important;
@@ -57,17 +63,18 @@ img {
 }
 
 .header{
-  background-image: url('/images/backround.jpg');
-  background-attachment: fixed;
-  background-size: cover;
+  background-image: url('/images/Jacob.jpg');
   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 100vw;
-  height: 100vw;
+  height: 100vh;
+  position: relative;
  }
 
 
 footer {
-  background: rgb(52, 90, 52);
+  background: black;
   text-align: center;
   width: 100vw;
   font-size: 14px;
@@ -241,12 +248,10 @@ section{
   height: 100%;
 }
 
-
 .form-control{
   box-sizing: border-box;
   -webkit-transition: 0.5s;
   transition: 0.5s;
- 
 }
 
 .form-control:focus {
@@ -254,6 +259,8 @@ section{
   outline: none !important
 }
 
-input:focus 
-{outline:none;}
 
+
+p, label, li{
+  color: #82909c;
+}
