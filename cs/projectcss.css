@@ -1,7 +1,7 @@
 body,html{
       padding: 0;
       margin: 0;
-      background: #3b434a
+      background: #4f575e
 }
 
 input{
@@ -63,7 +63,7 @@ img {
 }
 
 .header{
-  background-image: url('/images/Jacob.jpg');
+  background-image: url('/images/backround.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -74,7 +74,7 @@ img {
 
 
 footer {
-  background: black;
+  background: rgba(0, 0, 0, 0.596);
   text-align: center;
   width: 100vw;
   font-size: 14px;
