@@ -4,7 +4,7 @@ body,html{
       background: #4f575e
 }
 
-input{
+input {
   outline: none;
 }
 
@@ -24,23 +24,23 @@ input{
   vertical-align: middle;
   padding: 18px;
 }
-.fade-in{
+.fade-in {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-
-a:hover{
+a:hover {
         color:yellow !important;
 }
-.btn:hover{
+.btn:hover {
   color:yellow !important;
 
 }
 
-h1,h2{
+h1, h2 {
+    font-family: 'Amatic SC', cursive;
         text-align: center;
         padding-bottom: 50px;
         padding-top: 50px;
@@ -58,12 +58,12 @@ img {
   color:mediumpurple;
 }
 
-.container-fluid{
+.container-fluid {
   position: relative;
 }
 
-.header{
-  background-image: url('/images/backround.jpg');
+.header {
+  background-image: url('/images/Jacob.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -83,8 +83,7 @@ footer {
   position: relative;
 }
 
-
-button.navbar-toggler.navbar-toggler{
+button.navbar-toggler.navbar-toggler {
   border-color: mediumpurple;
 }
 
@@ -161,7 +160,7 @@ color: mediumpurple !important
   }
   100% {
     opacity:1;
-}
+    }
 }
 
 .resume .resume-title {
@@ -221,11 +220,11 @@ color: mediumpurple !important
   border: 2px solid #82909c;
 }
 
-.container{
+.container {
 scroll-behavior: smooth;
 }
 
-section{
+section {
   padding: 40px 0;
 }
 
@@ -236,7 +235,7 @@ section{
   background-color: white;
 }
 
-.card-footer{
+.card-footer {
   background-color: white;
 }
 
@@ -248,7 +247,7 @@ section{
   height: 100%;
 }
 
-.form-control{
+.form-control {
   box-sizing: border-box;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -259,8 +258,10 @@ section{
   outline: none !important
 }
 
-
-
 p, label, li{
   color: #82909c;
+}
+
+a{
+  color:mediumpurple
 }
