@@ -13,20 +13,19 @@
   }());
 
   var time = new Date().getHours();
-    var greeting;
+
+  var greeting;
+
     if (time > 16) {
-      greeting = "Good evening,";
+      greeting = "Good evening";
     } else if (time > 11) {
-      greeting = "Good afternoon,";
+      greeting = "Good afternoon";
     } else if (time > 0) {
-      greeting = "Good morning,";
+      greeting = "Good morning";
     } else {
-      greeting ="Hello,";
+      greeting ="Hello";
     }
-    document.getElementById("greeting").innerHTML = greeting;
-  
-    
-        
+    document.getElementById("greeting").innerHTML = greeting; 
      form.addEventListener('submit', (e) => {
       validation();
   });
