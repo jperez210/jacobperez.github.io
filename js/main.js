@@ -26,6 +26,7 @@
       greeting ="Hello";
     }
     document.getElementById("greeting").innerHTML = greeting; 
+
      form.addEventListener('submit', (e) => {
       validation();
   });
@@ -67,12 +68,3 @@
       const scroll = new SmoothScroll('a[href*="#"]', {
            speed:800
       });
-
-      $(document).ready(function () {
-        $('.nav a').on('click', function(){
-          $('.navbar-toggler').click(); 
-      })
-      });
-        
-
-     
