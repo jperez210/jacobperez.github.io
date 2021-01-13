@@ -1,1 +1,1 @@
-This is for the people that said I would never make it. 
+A single page proftfolio that is also mobile friendly.  

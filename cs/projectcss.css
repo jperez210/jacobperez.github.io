@@ -1,8 +1,8 @@
 body,html{
-      padding: 0;
-      margin: 0;
-      background: #4f575e;
-      overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+    background: #4f575e;
+    overflow-x: hidden;
 }
 
 input {
@@ -42,9 +42,9 @@ button:hover {
 
 h1, h2 {
     font-family: 'Amatic SC', cursive;
-        text-align: center;
-        padding:50px;
-        color: white;
+    text-align: center;
+    padding:50px;
+    color: white;
 }
 
 .fade-in h1{
@@ -212,14 +212,13 @@ p {
 
 a:hover { 
   color: #e4c03d !important;
-
 }
 
 .card p{
   color: #4f575e;
 }
 
-a{
+a {
   color:mediumpurple
 }
 
