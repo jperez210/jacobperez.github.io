@@ -36,6 +36,7 @@ input {
 .nav-link{
   color: mediumpurple!important;
 }
+
 button:hover {
   color: #e4c03d;
 }
@@ -52,18 +53,14 @@ h1, h2 {
 }
 
 img {
-  width: 100%;
+  max-width: 100%;
   height: auto;
 }
 
-.btn{
+.btn {
 	border:1px  solid rgb(10, 10, 10);
 	background:rgb(10, 10, 10);
   color:mediumpurple;
-}
-
-.container-fluid {
-  position: relative;
 }
 
 .header {
@@ -87,9 +84,6 @@ footer {
 
 button.navbar-toggler.navbar-toggler {
   border-color: mediumpurple;
-}
-.nav-link{
-color: mediumpurple;
 }
 
 .row-content {
@@ -194,7 +188,6 @@ section {
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
-
 
 .form-control:focus {
   border: 2px solid red;

@@ -27,10 +27,10 @@
     document.getElementById("greeting").innerHTML = greeting; 
 
      form.addEventListener('submit', (e) => {
-     validation();
-  });
+          validation();
+     });
   
-  function validation() {
+     function validation() {
      var firstName, lastName, email, message ;
       
      firstName = document.forms["form"]["firstName"].value;
