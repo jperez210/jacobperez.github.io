@@ -1,7 +1,7 @@
 (function() {
       
-      var checkLength = function() {
-          var maxText = 150, msgLength;
+      let checkLength = function() {
+          let maxText = 150, msgLength;
            msgLength = document.forms["form"]["textarea"].value;
            if(msgLength.length <= maxText) {
                 document.getElementById("textLength").innerHTML = "Max " +(maxText - msgLength.length) + " Characters";
@@ -11,9 +11,9 @@
       
 }());
 
-  var time = new Date().getHours();
+  let time = new Date().getHours();
 
-  var greeting;
+  let greeting;
 
     if (time > 16) {
      greeting = "Good evening";
@@ -31,7 +31,7 @@
      });
   
      function validation() {
-     var firstName, lastName, email, message ;
+     let firstName, lastName, email, message ;
       
      firstName = document.forms["form"]["firstName"].value;
      lastName = document.forms["form"]["lastName"].value;
@@ -63,6 +63,6 @@
      }
 }
 
-     const scroll = new SmoothScroll('a[href*="#"]', {
+     let scroll = new SmoothScroll('a[href*="#"]', {
           speed:800
      });
