@@ -24,6 +24,7 @@
     } else {
      greeting ="Hello";
     }
+    
     document.getElementById("greeting").innerHTML = greeting; 
 
      form.addEventListener('submit', (e) => {
