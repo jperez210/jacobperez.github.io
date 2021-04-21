@@ -37,6 +37,7 @@ input {
   color: mediumpurple!important;
 }
 
+
 button:hover {
   color: #e4c03d;
 }
@@ -62,6 +63,9 @@ img {
 	border:1px  solid rgb(10, 10, 10);
 	background:rgb(10, 10, 10);
   color:mediumpurple;
+  padding:0.3em 1.2em;
+  border-radius:2em;
+  margin: 0 0.3en 0.3em 0;
 }
 
 .header {
@@ -72,10 +76,10 @@ img {
   width: 100vw;
   height: 100vh;
   position: relative;
+  /*margin: 87px 0;  So the image is below the header */
 }
 
 footer {
-  
   text-align: center;
   width: 100vw;
   font-size: 14px;
@@ -97,6 +101,7 @@ button.navbar-toggler.navbar-toggler {
   color: mediumpurple;
   background-color: black;
   border-color: black;
+  border-radius:8px;
 }
 
 .formStatus {
