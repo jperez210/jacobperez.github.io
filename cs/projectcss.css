@@ -37,7 +37,6 @@ input {
   color: mediumpurple!important;
 }
 
-
 h1, h2 {
   font-family: 'Amatic SC', cursive;
   text-align: center;
@@ -68,7 +67,6 @@ img {
 .more {
   position: relative;
   left: 150px;
-
 }
 
 .header {
@@ -93,8 +91,6 @@ footer {
 button.navbar-toggler.navbar-toggler {
   border-color: mediumpurple;
 }
-
-
 
 button:hover {
   color: #e4c03d;
@@ -211,7 +207,7 @@ section {
   outline: none !important
 }
 
-label,li,h3,h4 {
+label,li,h3 {
   color: #eef0f2;
 }
 
